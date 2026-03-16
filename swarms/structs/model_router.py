@@ -56,7 +56,6 @@ model_recommendations = {
         ],
         "provider": "deepseek",
     },
-
     "deepseek/deepseek-v3.2": {
         "description": "DeepSeek V3.2 model for reasoning and code generation",
         "best_for": [
@@ -64,7 +63,7 @@ model_recommendations = {
             "Code generation",
             "Mathematical analysis",
         ],
-        "provider": "deepseek",
+        "provider": "novita",
     },
     "zai-org/glm-5": {
         "description": "GLM-5 for multimodal reasoning and general tasks",
@@ -72,7 +71,7 @@ model_recommendations = {
             "Multimodal tasks",
             "General purpose tasks",
         ],
-        "provider": "zai-org",
+        "provider": "novita",
     },
     "minimax/minimax-m2.5": {
         "description": "MiniMax M2.5 for video and multimodal tasks",
@@ -80,7 +79,7 @@ model_recommendations = {
             "Video analysis",
             "Multimodal reasoning",
         ],
-        "provider": "minimax",
+        "provider": "novita",
     },
     "claude-3-5-sonnet": {
         "description": "Well-rounded model with strong reasoning and creativity",
