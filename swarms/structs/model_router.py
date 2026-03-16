@@ -56,6 +56,32 @@ model_recommendations = {
         ],
         "provider": "deepseek",
     },
+
+    "deepseek/deepseek-v3.2": {
+        "description": "DeepSeek V3.2 model for reasoning and code generation",
+        "best_for": [
+            "Complex reasoning",
+            "Code generation",
+            "Mathematical analysis",
+        ],
+        "provider": "deepseek",
+    },
+    "zai-org/glm-5": {
+        "description": "GLM-5 for multimodal reasoning and general tasks",
+        "best_for": [
+            "Multimodal tasks",
+            "General purpose tasks",
+        ],
+        "provider": "zai-org",
+    },
+    "minimax/minimax-m2.5": {
+        "description": "MiniMax M2.5 for video and multimodal tasks",
+        "best_for": [
+            "Video analysis",
+            "Multimodal reasoning",
+        ],
+        "provider": "minimax",
+    },
     "claude-3-5-sonnet": {
         "description": "Well-rounded model with strong reasoning and creativity",
         "best_for": [
@@ -103,6 +129,7 @@ providers = {
     "azure": "Cloud platform for various model deployments",
     "deepseek": "Provider of specialized reasoning models",
     "mistral": "Provider of open source and commercial language models",
+    "novita": "Provider of OpenAI-compatible APIs with deepseek, zai-org, and minimax models",
 }
 
 
