@@ -56,8 +56,8 @@ model_recommendations = {
         ],
         "provider": "deepseek",
     },
-    "deepseek/deepseek-v3.2": {
-        "description": "DeepSeek V3.2 model for reasoning and code generation",
+    "moonshotai/kimi-k2.5": {
+        "description": "Kimi K2.5 for complex reasoning and code generation via Novita AI",
         "best_for": [
             "Complex reasoning",
             "Code generation",
@@ -66,7 +66,7 @@ model_recommendations = {
         "provider": "novita",
     },
     "zai-org/glm-5": {
-        "description": "GLM-5 for multimodal reasoning and general tasks",
+        "description": "GLM-5 for multimodal reasoning and general tasks via Novita AI",
         "best_for": [
             "Multimodal tasks",
             "General purpose tasks",
@@ -74,7 +74,7 @@ model_recommendations = {
         "provider": "novita",
     },
     "minimax/minimax-m2.5": {
-        "description": "MiniMax M2.5 for video and multimodal tasks",
+        "description": "MiniMax M2.5 for video and multimodal tasks via Novita AI",
         "best_for": [
             "Video analysis",
             "Multimodal reasoning",
@@ -128,7 +128,7 @@ providers = {
     "azure": "Cloud platform for various model deployments",
     "deepseek": "Provider of specialized reasoning models",
     "mistral": "Provider of open source and commercial language models",
-    "novita": "Provider of OpenAI-compatible APIs with deepseek, zai-org, and minimax models",
+    "novita": "Provider of OpenAI-compatible APIs for models like Kimi K2.5, GLM-5, and MiniMax M2.5",
 }
 
 
